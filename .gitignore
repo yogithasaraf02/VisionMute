@@ -1,0 +1,44 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE or Editor-specific files
+.vscode/
+.idea/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Log files
+*.log
+
+# Image files generated during execution
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Dataset directories (if you have a large dataset and don't want to track it)
+dataset/
+
+# Zip files (if you upload zip files for testing purposes)
+*.zip
+
+# Pytest / Coverage reports
+*.coverage
+.coverage.*
+nosetests.xml
+pytest*.xml
+test_*.xml
+
+# Virtual Environment
+venv/
+env/
